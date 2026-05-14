@@ -1,0 +1,61 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-IDF (esp32)",
+            "compilerPath": "/Users/shaunak/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc",
+            "compilerArgs": ["-mlongcalls"],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "defines": [
+                "ESP_PLATFORM",
+                "IDF_VER=\"v6.0.1\"",
+                "CONFIG_IDF_TARGET_ESP32",
+                "CONFIG_IDF_TARGET=\"esp32\"",
+                "CONFIG_FREERTOS_UNICORE=1",
+                "__xtensa__"
+            ],
+            "includePath": [
+                "${workspaceFolder}/main",
+                "${workspaceFolder}/build/config",
+
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/log/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_common/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_hw_support/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_timer/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_system/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_system/port/include",
+
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/esp_driver_uart/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/driver/include",
+
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/freertos/FreeRTOS-Kernel-SMP/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/freertos/config/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/freertos/config/xtensa/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/freertos/esp_additions/include",
+
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/hal/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/hal/esp32/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/soc/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/soc/esp32/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/xtensa/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/xtensa/esp32/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/newlib/include",
+                "/Users/shaunak/.espressif/v6.0.1/esp-idf/components/newlib/port/include",
+
+                "/Users/shaunak/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/xtensa-esp-elf/sys-include",
+                "/Users/shaunak/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/15.2.0/include"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/Users/shaunak/.espressif/v6.0.1/esp-idf/components"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "compileCommands": "${workspaceFolder}/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
