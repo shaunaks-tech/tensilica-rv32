@@ -10,7 +10,8 @@ Executes compiled RV32I binaries on the ESP32 by emulating the full base integer
 
 ## Why
 
-I wanted to understand what actually happens when a CPU fetches and decodes an instruction — not just in theory but down to the bit manipulation. Writing the decode loop by hand for 37 instructions makes that pretty concrete. The ESP32 was a natural target since I had one sitting around and ESP-IDF gives enough control to keep things interesting.
+
+I wanted to understand what actually happens when a CPU fetches and decodes an instruction, not just in theory but down to the bit manipulation. Writing the decode loop by hand for 37 instructions makes that pretty concrete. The ESP32 was a natural target since I had one sitting around and ESP-IDF gives enough control to keep things interesting.
 
 ## Status
 
