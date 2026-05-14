@@ -10,7 +10,7 @@ Executes compiled RV32I binaries on the ESP32 by emulating the full base integer
 
 ## Why
 
-Wanted to see how cleanly RV32I's design philosophy holds up when you actually implement the decode logic — and an ESP32 seemed like a more interesting target than just writing a desktop emulator.
+Wanted to see how cleanly RV32I's design philosophy holds up when you actually implement the decode logic and an ESP32 seemed like a more interesting target than just writing a desktop emulator.
 
 
 ## Status
